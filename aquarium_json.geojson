@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "aquarium_json",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1, "name": "aquarium" }, "geometry": { "type": "Point", "coordinates": [ -8674704.739091675728559, 4023795.817883999552578 ] } }
-]
-}
