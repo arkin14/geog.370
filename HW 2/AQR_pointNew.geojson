@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "AQR_pointNew",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "Point", "coordinates": [ -77.925751512983965, 33.962846082984484 ] } }
+]
+}

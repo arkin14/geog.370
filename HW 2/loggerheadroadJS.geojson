@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "loggerheadroadJS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -77.927238480979653, 33.962934818021239 ], [ -77.926854060142475, 33.963451030868292 ], [ -77.922881711491442, 33.964893373688483 ], [ -77.921508779930065, 33.966123141407628 ], [ -77.921032830322105, 33.966897430479065 ], [ -77.921069441830412, 33.967717258283351 ] ] ] } }
+]
+}
