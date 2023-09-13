@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections</title>
+</head>
+<body>
+    <h1>Homework 3</h1>
+    
+    <p>In QGIS I clicked on the CRS value on the bottom toolbar of the screen, which took me to a page titled 'Project Properties - CRS'. From there, I used the search bar to find the required projections listed in the assignment details by Dr. Arce-Nazario. </p>
+    
+    <h2>WGS84 Projection</h2>
+    <h3>Neither shape nor area are preserved, but the distance remains equal between indicatricies. This distortion worsens moving either N. or S. from the equator. </h3>
+    <a href=".//maps/WGS84.png">
+    <img src=".//maps/WGS84.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Aitoff Projection</h2>
+    <h3>Shape, area, and distance travelling both longitudinally and lattitudinally are distorted in this projection. The least affected region of the map is the intersection of the equator and prime meridian.</h3>
+    <a href=".//maps/AitoffProj.png">
+    <img src=".//maps/AitoffProj.png" alt="Aitoff" width='500px'>
+    </a>
+    <h2>Pseudo Mercator (3857) Projection</h2>
+    <h3>In this projection the shape is preserved, but the area and distance becomes distorted between parallels.</h3>
+    <a href="./maps/3857KA.png">
+    <img src="./maps/3857KA.png" alt="3857" width='500px'>
+    </a>
+    <h2>Winkel (53018) Projection</h2>
+    <h3>In the Winkel Projection, the indicatricies directly neighboring and residing on both the equator and the prime meridian appear to be less distorted than others. The farther east and west one looks, the more stretched each circle becomes, excluding those along the equator. As one travels north or south, the circles also elongate and the distance between points increases.</h3>
+    <a href="./maps/Winkel.png">
+    <img src="./maps/Winkel.png" alt="53018" width='500px'>
+    </a>
+    <h2>Equal Area (54034) Projection</h2>
+    <h3>In this projection, the distance between indicatricies remains equal, however the shape distorts as one travels N. or S. away from the equator. The distortion of shape and area is constant along each parallel but varies by meridian.</h3>
+    <a href="./maps/EqualArea54034.png">
+    <img src="./maps/EqualArea54034.png" alt="54034" width='500px'>
+    </a>
+    <h2>54027 Projection</h2>
+    <h3>This looks like a useful projection for the North Pole, because the distortion in area and shape only impacts the southern-most latitudes. Across all northings and eastings, the distance between indicatricies is very distorted. </h3>
+    <a href="./maps/54027.png">
+    <img src="./maps/54027.png" alt="54027" width='500px'>
+    </a>
+    <h2>Azimuthal (102016) Projection</h2>
+    <h3>This would be another useful projection for the northern latitudes, as there is also increasing distortion to shape and area the farther south one travels. The distance between each circle, however, appears to remain constant across the projection. </h3>
+    <a href="./maps/Azimuthal.png">
+    <img src="./maps/Azimuthal.png" alt="Azimuthal" width='500px'>
+    </a>
+    <h2>Craster Parabolic (53046) Projection</h2>
+    <h3>I chose this projection because I like the name of it. While the distortion on this projection is stronger along the outermost longitudes and latitudes, I appreciate the way it looks like a middle stage in changing the projection of a map from flat to elliptical/spherical. </h3>
+    <a href="./maps/CrasterParabolic.png">
+    <img src="./maps/CrasterParabolic.png" alt="53046" width='500px'>
+    </a>
+    <h2>Eckert II (54014) Projection</h2>
+    <h3>In my novice opinion, this map projection looks very similar to the Craster Parabolic projection. However on this map, the only undistorted point lies at coordinate point (0,0). </h3>
+    <a href="./maps/54014.png">
+    <img src="./maps/54014.png" alt="54014" width='500px'>
+    </a>
+    <p></p>
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+</body>
+</html>
