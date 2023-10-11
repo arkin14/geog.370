@@ -6,7 +6,7 @@
     <title>Homework 6</title>
 </head>
 <body>
-<h1>Homework 6: Census data choropleth </h1>
+<h1>Homework 6: Part 1 </h1>
 <h2>Kayce Arkinson</h2>
 <h3>The choropleth I designed is projected in the Georgia Statewide Lambert (ESRI: 102604). The map joins data from the 2021 U.S. Census about household income in the last 12 months within each county of Georgia. I used the state government of Georgia's GIS hub to find the county shapefile. Income increases from yellow to pink. </h3>
 <a href="./Homework6.png"><img src="./Homework6 copy.png"></a>
@@ -14,5 +14,15 @@
     <a href="./ACSDT5Y2021.B19001-Data.csv"> CSV dataset </a>
     <p></p>
     <a href="https://github.com/arkin14/geog.370/blob/main/HW%206/counties_vector.geojson"> Link to shapefile </a>
+<h1>Homework 6: Part 2 </h1>
+<h2>Natural Breaks Classification</h2>
+<h3>This classification breaks the data into distinct points using an algorithm. One benefit is that it accurately represents the data by identifying true clusters and classes. A disadvantage, however, is that the number ranges can be very large and specific to the individual dataset, making it difficult to use in comparing multiple maps with one another.</h3>
+<a href="./Part b/Lessthan10kActual.png"><img src="./Part b/Lessthan10kActual copy.png"></a>
+<h2>Equal Interval Classification</h2>
+</h3> This classification divides the data into equal size groups. It is very easy to interpret on a legend, and can be used for presenting to non-technichal audiences. Sometimes though, the data will fall into only one or two categories, leaving the others blank.</h3>
+<a href="./Part b/50-60K.png"><img src="./Part b/50-60K copy.png" ></a>
+<h2>Quantile Classification</h2>
+<h3></h3> This classification divides the data into classes with an equal number of data points. It is good for emphasizing the relative position of the data, and for comparing medians. Two drawbacks are 1) it can be hard to see clusters in the data and 2) features in the same class may differ widely, particularly when the data is not evenly distributed across its range. 
+<a href="./Part b/More than 200k.png"><img src="./Part b/More than 200k copy.png"></a>
 </body>
 </html>
